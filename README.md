@@ -8,5 +8,10 @@
 - clickhouse_connect
 - dotenv
   
-Перед запуском требуется ввести свои Yandex Token, Client ID, Counter id в файл .env. 
-Также требуется ввести адрес своего clickhouse хоста в файле QueryPy.
+## Перед запуском необходимо:
+- ввести Yandex Token, Client ID, Counter id в файл .env.
+- адрес clickhouse хоста в файле QueryPy.
+----------------
+Для начала работы требуется запустить файл Start.py, далее последовательно вводить команды:
+
+Target: `Create`(Если бд не создана)/`Update`(Если требуется обновить данные в существующей бд)
