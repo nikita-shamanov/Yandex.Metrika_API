@@ -1,5 +1,5 @@
 # Yandex.Metrika_API
-Скрипт, позволяющий автоматически запрашивать данные из YM Logs API и загружать их в базу clickhouse.
+Скрипт, позволяющий автоматически запрашивать данные из YM Logs API и загружать их в базу clickhouse
 ## Dependencies
 - requests
 - datetime
@@ -8,11 +8,13 @@
 - clickhouse_connect
 - dotenv
   
-## Перед запуском необходимо:
-- ввести Yandex Token, Client ID, Counter id в файл example.env
-- адрес clickhouse хоста в файле QueryPy
+## Перед запуском необходимо внести в файл example.env:
+-  Yandex Token
+-  Client ID
+-  Counter id
+-  HOST (адрес clickhouse хоста) 
 ----------------
-Для начала работы требуется запустить файл Start.py, далее последовательно ввести команды:
+### Для начала работы требуется запустить файл Start.py, далее последовательно ввести команды:
 
 ### Если необходимо создать новую бд
 
@@ -42,13 +44,11 @@
 
 `Target`: Update
 
-`System`: Yandex 
-
 `Name`: Название таблицы для обновления
 
 Пример:
 
     Target: Update
-    System: Yandex
     Name: MyNewTable
-    
+
+### Далее к бд можно обращаться с помощью модуля QueryPy
