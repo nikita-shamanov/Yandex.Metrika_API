@@ -7,10 +7,10 @@ if target == 'Create':
 
     system = 'Yandex'    
     table_name = input('Name: ')
-    date1 = input('date1: ')
-    date2 = input('date2: ')
-    source = input('source: ')
-    fields = input('fields: ')
+    date1 = input('Date1: ')
+    date2 = input('Date2: ')
+    source = input('Source: ')
+    fields = input('Fields: ')
     
 
     if source == 'visits':
