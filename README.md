@@ -22,13 +22,13 @@
 
 `Name`: Название таблицы
 
-`date1`: Начало периода
+`Date1`: Начало периода
 
-`date2`: Конец периода
+`Date2`: Конец периода
 
-`source`: visits(визиты) / hits(просмотры)
+`Source`: visits(визиты) / hits(просмотры)
 
-`fields`: Параметры логов
+`Fields`: Параметры логов
 
 
 Пример:
@@ -51,4 +51,8 @@
     Target: Update
     Name: MyNewTable
 
-### Далее к бд можно обращаться с помощью модуля QueryPy
+### Далее к бд можно обращаться с помощью модуля QueryPy. 
+
+get_clickhouse_data - Принимет SQL запрос и возвращает данные.txt
+
+get_clickhouse_df - Принимет SQL запрос и возвращает pandas.DataFrame
