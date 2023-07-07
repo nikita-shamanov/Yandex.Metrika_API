@@ -1,7 +1,12 @@
-HOST = 'Your_host'
+from dotenv import load_dotenv
+import os
 import requests
 import pandas as pd
 from io import StringIO
+
+load_dotenv()
+
+HOST = os.getenv("HOST")
 
 def get_clickhouse_data(query, host = HOST, connection_timeout = 1500): 
     r = requests.post(host, params = {'query': query}, timeout = connection_timeout)
