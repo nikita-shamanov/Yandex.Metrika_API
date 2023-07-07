@@ -1,5 +1,5 @@
 # Yandex.Metrika_API
-Скрипт, позволяющий автоматически запрашивать данные из YM Logs API и загружать их в базу clickhouse
+Скрипт, позволяющий автоматически запрашивать данные из YM Logs API и загружать их в базу ClickHouse
 ## Dependencies
 - requests
 - datetime
