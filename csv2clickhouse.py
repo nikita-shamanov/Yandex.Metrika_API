@@ -1,5 +1,3 @@
-import glob
-import pandas as pd
 import clickhouse_connect
 
 def loqin(database_port = '8123', 
