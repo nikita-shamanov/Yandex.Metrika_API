@@ -12,7 +12,7 @@
 -  Yandex Token
 -  Client ID
 -  Counter id
--  HOST (адрес clickhouse хоста) 
+-  HOST (адрес ClickHouse хоста) 
 ----------------
 ### Для начала работы требуется запустить файл Start.py, далее последовательно ввести команды:
 
