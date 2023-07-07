@@ -51,7 +51,7 @@
     Target: Update
     Name: MyNewTable
 
-### Далее к БД можно обращаться с помощью модуля QueryPy. 
+### Далее к БД можно обращаться с помощью модуля QueryPy
 
 get_clickhouse_data - Принимет SQL запрос и возвращает данные.txt
 
